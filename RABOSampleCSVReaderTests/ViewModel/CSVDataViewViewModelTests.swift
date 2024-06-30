@@ -24,7 +24,7 @@ final class CSVDataViewViewModelTests: XCTestCase {
     }
     
     @MainActor
-    func testParseCSVSuccess() async throws {
+    func testLoadCSVSuccessCase() async throws {
         // Arrange
         XCTAssertTrue(sut.dataFrame.rows.isEmpty)
         
@@ -37,7 +37,7 @@ final class CSVDataViewViewModelTests: XCTestCase {
     }
     
     @MainActor
-    func testParseCSVFailed() async throws {
+    func testLoadCSVFailedCase() async throws {
         // Arrange
         let mockRequestManager = MockNetworkRequestManager()
         mockRequestManager.shouldReturnError = true
