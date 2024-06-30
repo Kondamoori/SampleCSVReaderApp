@@ -31,6 +31,9 @@ class NetworkRequestManager: NetworkRequestManagerInterface {
         }
     }
     
+    /// Function to perform request
+    /// - Parameter request: instance of URL Request.
+    /// - Returns: returns the Data if no error.
     func performRequest(request: URLRequest) async throws -> Data {
         let (responseData, httpResponse) = try await URLSession.shared.data(for: request)
         let data = try parseHttpResponse(response: (responseData, httpResponse))
