@@ -24,6 +24,7 @@ RABOSampleCSVReader is a SwiftUI application that allows users to visualise CSV 
 1. **Grid View**:
     - Accessible via the first tab.
     - Displays CSV data in a grid format, with each cell representing a CSV value.
+    - Note: Please scroll the conent both horizontally & vertically to view the CSV file content on this grid layout.
 
 2. **Table View**:
     - Accessible via the second tab (icon: list).
@@ -48,7 +49,11 @@ You can also try different type of CSV files with configurable `CSVReadingOption
 - **NetworkRequestManager.swift**: Generic network manager to connect backend or local with file path.
 
 ## Screenshots
+![Simulator Screenshot - iPhone 15 Pro - 2024-06-30 at 23 54 45](https://github.com/Kondamoori/SampleCSVReaderApp/assets/167027211/41225f9d-ad72-45ec-9945-b4abaa07de1a)
+![Simulator Screenshot - iPhone 15 Pro - 2024-06-30 at 23 54 51](https://github.com/Kondamoori/SampleCSVReaderApp/assets/167027211/f8b9ec45-0ba9-4add-9741-cc533db74eb9)
 
+-- Demo Video.
+https://github.com/Kondamoori/SampleCSVReaderApp/assets/167027211/2bb9da62-235b-4edd-b8c1-d87a81dd91c7
 
 ## Unit Test Coverage
 - This application has good unit test coverage with 80%.
