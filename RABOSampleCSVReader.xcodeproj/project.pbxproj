@@ -1,0 +1,750 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D6E589DD2C318FBC00638220 /* RABOSampleCSVReaderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E589DC2C318FBC00638220 /* RABOSampleCSVReaderApp.swift */; };
+		D6E589E12C318FBD00638220 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6E589E02C318FBD00638220 /* Assets.xcassets */; };
+		D6E589E42C318FBD00638220 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6E589E32C318FBD00638220 /* Preview Assets.xcassets */; };
+		D6E589F82C318FBD00638220 /* RABOSampleCSVReaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E589F72C318FBD00638220 /* RABOSampleCSVReaderUITests.swift */; };
+		D6E589FA2C318FBD00638220 /* RABOSampleCSVReaderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E589F92C318FBD00638220 /* RABOSampleCSVReaderUITestsLaunchTests.swift */; };
+		D6E58A1E2C318FFC00638220 /* issues.csv in Resources */ = {isa = PBXBuildFile; fileRef = D6E58A082C318FFC00638220 /* issues.csv */; };
+		D6E58A202C318FFC00638220 /* LocalisedTranslator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E58A0C2C318FFC00638220 /* LocalisedTranslator.swift */; };
+		D6E58A212C318FFC00638220 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D6E58A0E2C318FFC00638220 /* Localizable.strings */; };
+		D6E58A222C318FFC00638220 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E58A102C318FFC00638220 /* User.swift */; };
+		D6E58A232C318FFC00638220 /* CSVDataFrameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E58A122C318FFC00638220 /* CSVDataFrameView.swift */; };
+		D6E58A242C318FFC00638220 /* CSVDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E58A132C318FFC00638220 /* CSVDataView.swift */; };
+		D6E58A252C318FFC00638220 /* ApiError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E58A152C318FFC00638220 /* ApiError.swift */; };
+		D6E58A262C318FFC00638220 /* ApiRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E58A172C318FFC00638220 /* ApiRequest.swift */; };
+		D6E58A272C318FFC00638220 /* EndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E58A182C318FFC00638220 /* EndPoint.swift */; };
+		D6E58A282C318FFC00638220 /* NetworkRequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E58A192C318FFC00638220 /* NetworkRequestManager.swift */; };
+		D6E58A292C318FFC00638220 /* CSVDataViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E58A1B2C318FFC00638220 /* CSVDataViewViewModel.swift */; };
+		D6E58A372C31C24600638220 /* CSVDataListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E58A362C31C24600638220 /* CSVDataListView.swift */; };
+		D6E58A392C31E76100638220 /* CSVTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E58A382C31E76100638220 /* CSVTabView.swift */; };
+		D6E58A3C2C31F77900638220 /* CSVDataRequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E58A062C318FFC00638220 /* CSVDataRequestManager.swift */; };
+		D6E58A3D2C31F83000638220 /* CSVDataViewViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E58A342C31B10400638220 /* CSVDataViewViewModelTests.swift */; };
+		D6E58A3E2C31F83000638220 /* ApiRequestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E58A2A2C31904700638220 /* ApiRequestTests.swift */; };
+		D6E58A3F2C31F83000638220 /* CSVEndPointTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E58A2B2C31904700638220 /* CSVEndPointTests.swift */; };
+		D6E58A402C31F83000638220 /* NetworkRequestManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E58A2C2C31904700638220 /* NetworkRequestManagerTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D6E589EA2C318FBD00638220 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6E589D12C318FBC00638220 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6E589D82C318FBC00638220;
+			remoteInfo = RABOSampleCSVReader;
+		};
+		D6E589F42C318FBD00638220 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6E589D12C318FBC00638220 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6E589D82C318FBC00638220;
+			remoteInfo = RABOSampleCSVReader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D6E589D92C318FBC00638220 /* RABOSampleCSVReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RABOSampleCSVReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6E589DC2C318FBC00638220 /* RABOSampleCSVReaderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RABOSampleCSVReaderApp.swift; sourceTree = "<group>"; };
+		D6E589E02C318FBD00638220 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D6E589E32C318FBD00638220 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D6E589E92C318FBD00638220 /* RABOSampleCSVReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RABOSampleCSVReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6E589F32C318FBD00638220 /* RABOSampleCSVReaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RABOSampleCSVReaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6E589F72C318FBD00638220 /* RABOSampleCSVReaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RABOSampleCSVReaderUITests.swift; sourceTree = "<group>"; };
+		D6E589F92C318FBD00638220 /* RABOSampleCSVReaderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RABOSampleCSVReaderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D6E58A062C318FFC00638220 /* CSVDataRequestManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSVDataRequestManager.swift; sourceTree = "<group>"; };
+		D6E58A082C318FFC00638220 /* issues.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = issues.csv; sourceTree = "<group>"; };
+		D6E58A0C2C318FFC00638220 /* LocalisedTranslator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalisedTranslator.swift; sourceTree = "<group>"; };
+		D6E58A0D2C318FFC00638220 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D6E58A102C318FFC00638220 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		D6E58A122C318FFC00638220 /* CSVDataFrameView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSVDataFrameView.swift; sourceTree = "<group>"; };
+		D6E58A132C318FFC00638220 /* CSVDataView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSVDataView.swift; sourceTree = "<group>"; };
+		D6E58A152C318FFC00638220 /* ApiError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiError.swift; sourceTree = "<group>"; };
+		D6E58A172C318FFC00638220 /* ApiRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiRequest.swift; sourceTree = "<group>"; };
+		D6E58A182C318FFC00638220 /* EndPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndPoint.swift; sourceTree = "<group>"; };
+		D6E58A192C318FFC00638220 /* NetworkRequestManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkRequestManager.swift; sourceTree = "<group>"; };
+		D6E58A1B2C318FFC00638220 /* CSVDataViewViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSVDataViewViewModel.swift; sourceTree = "<group>"; };
+		D6E58A2A2C31904700638220 /* ApiRequestTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiRequestTests.swift; sourceTree = "<group>"; };
+		D6E58A2B2C31904700638220 /* CSVEndPointTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSVEndPointTests.swift; sourceTree = "<group>"; };
+		D6E58A2C2C31904700638220 /* NetworkRequestManagerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkRequestManagerTests.swift; sourceTree = "<group>"; };
+		D6E58A342C31B10400638220 /* CSVDataViewViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSVDataViewViewModelTests.swift; sourceTree = "<group>"; };
+		D6E58A362C31C24600638220 /* CSVDataListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSVDataListView.swift; sourceTree = "<group>"; };
+		D6E58A382C31E76100638220 /* CSVTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSVTabView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6E589D62C318FBC00638220 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6E589E62C318FBD00638220 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6E589F02C318FBD00638220 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D6E589D02C318FBC00638220 = {
+			isa = PBXGroup;
+			children = (
+				D6E589DB2C318FBC00638220 /* RABOSampleCSVReader */,
+				D6E589EC2C318FBD00638220 /* RABOSampleCSVReaderTests */,
+				D6E589F62C318FBD00638220 /* RABOSampleCSVReaderUITests */,
+				D6E589DA2C318FBC00638220 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D6E589DA2C318FBC00638220 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6E589D92C318FBC00638220 /* RABOSampleCSVReader.app */,
+				D6E589E92C318FBD00638220 /* RABOSampleCSVReaderTests.xctest */,
+				D6E589F32C318FBD00638220 /* RABOSampleCSVReaderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6E589DB2C318FBC00638220 /* RABOSampleCSVReader */ = {
+			isa = PBXGroup;
+			children = (
+				D6E58A3A2C31F2F800638220 /* Main */,
+				D6E58A142C318FFC00638220 /* Views */,
+				D6E58A1C2C318FFC00638220 /* ViewModel */,
+				D6E58A112C318FFC00638220 /* Model */,
+				D6E58A1A2C318FFC00638220 /* Network */,
+				D6E58A072C318FFC00638220 /* CSVRequest */,
+				D6E58A092C318FFC00638220 /* Resource */,
+				D6E58A0F2C318FFC00638220 /* Localization */,
+				D6E589E02C318FBD00638220 /* Assets.xcassets */,
+				D6E589E22C318FBD00638220 /* Preview Content */,
+			);
+			path = RABOSampleCSVReader;
+			sourceTree = "<group>";
+		};
+		D6E589E22C318FBD00638220 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D6E589E32C318FBD00638220 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D6E589EC2C318FBD00638220 /* RABOSampleCSVReaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				D6E58A332C31B0EB00638220 /* ViewModel */,
+				D6E58A2D2C31904700638220 /* Network */,
+			);
+			path = RABOSampleCSVReaderTests;
+			sourceTree = "<group>";
+		};
+		D6E589F62C318FBD00638220 /* RABOSampleCSVReaderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D6E589F72C318FBD00638220 /* RABOSampleCSVReaderUITests.swift */,
+				D6E589F92C318FBD00638220 /* RABOSampleCSVReaderUITestsLaunchTests.swift */,
+			);
+			path = RABOSampleCSVReaderUITests;
+			sourceTree = "<group>";
+		};
+		D6E58A072C318FFC00638220 /* CSVRequest */ = {
+			isa = PBXGroup;
+			children = (
+				D6E58A062C318FFC00638220 /* CSVDataRequestManager.swift */,
+			);
+			path = CSVRequest;
+			sourceTree = "<group>";
+		};
+		D6E58A092C318FFC00638220 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				D6E58A082C318FFC00638220 /* issues.csv */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		D6E58A0F2C318FFC00638220 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				D6E58A0C2C318FFC00638220 /* LocalisedTranslator.swift */,
+				D6E58A0E2C318FFC00638220 /* Localizable.strings */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		D6E58A112C318FFC00638220 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D6E58A102C318FFC00638220 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D6E58A142C318FFC00638220 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D6E58A122C318FFC00638220 /* CSVDataFrameView.swift */,
+				D6E58A132C318FFC00638220 /* CSVDataView.swift */,
+				D6E58A362C31C24600638220 /* CSVDataListView.swift */,
+				D6E58A382C31E76100638220 /* CSVTabView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D6E58A162C318FFC00638220 /* ErrorHandling */ = {
+			isa = PBXGroup;
+			children = (
+				D6E58A152C318FFC00638220 /* ApiError.swift */,
+			);
+			path = ErrorHandling;
+			sourceTree = "<group>";
+		};
+		D6E58A1A2C318FFC00638220 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				D6E58A162C318FFC00638220 /* ErrorHandling */,
+				D6E58A172C318FFC00638220 /* ApiRequest.swift */,
+				D6E58A182C318FFC00638220 /* EndPoint.swift */,
+				D6E58A192C318FFC00638220 /* NetworkRequestManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		D6E58A1C2C318FFC00638220 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D6E58A1B2C318FFC00638220 /* CSVDataViewViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D6E58A2D2C31904700638220 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				D6E58A2A2C31904700638220 /* ApiRequestTests.swift */,
+				D6E58A2B2C31904700638220 /* CSVEndPointTests.swift */,
+				D6E58A2C2C31904700638220 /* NetworkRequestManagerTests.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		D6E58A332C31B0EB00638220 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D6E58A342C31B10400638220 /* CSVDataViewViewModelTests.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D6E58A3A2C31F2F800638220 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				D6E589DC2C318FBC00638220 /* RABOSampleCSVReaderApp.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6E589D82C318FBC00638220 /* RABOSampleCSVReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6E589FD2C318FBD00638220 /* Build configuration list for PBXNativeTarget "RABOSampleCSVReader" */;
+			buildPhases = (
+				D6E589D52C318FBC00638220 /* Sources */,
+				D6E589D62C318FBC00638220 /* Frameworks */,
+				D6E589D72C318FBC00638220 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RABOSampleCSVReader;
+			productName = RABOSampleCSVReader;
+			productReference = D6E589D92C318FBC00638220 /* RABOSampleCSVReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D6E589E82C318FBD00638220 /* RABOSampleCSVReaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6E58A002C318FBD00638220 /* Build configuration list for PBXNativeTarget "RABOSampleCSVReaderTests" */;
+			buildPhases = (
+				D6E589E52C318FBD00638220 /* Sources */,
+				D6E589E62C318FBD00638220 /* Frameworks */,
+				D6E589E72C318FBD00638220 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6E589EB2C318FBD00638220 /* PBXTargetDependency */,
+			);
+			name = RABOSampleCSVReaderTests;
+			productName = RABOSampleCSVReaderTests;
+			productReference = D6E589E92C318FBD00638220 /* RABOSampleCSVReaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D6E589F22C318FBD00638220 /* RABOSampleCSVReaderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6E58A032C318FBD00638220 /* Build configuration list for PBXNativeTarget "RABOSampleCSVReaderUITests" */;
+			buildPhases = (
+				D6E589EF2C318FBD00638220 /* Sources */,
+				D6E589F02C318FBD00638220 /* Frameworks */,
+				D6E589F12C318FBD00638220 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6E589F52C318FBD00638220 /* PBXTargetDependency */,
+			);
+			name = RABOSampleCSVReaderUITests;
+			productName = RABOSampleCSVReaderUITests;
+			productReference = D6E589F32C318FBD00638220 /* RABOSampleCSVReaderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6E589D12C318FBC00638220 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					D6E589D82C318FBC00638220 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					D6E589E82C318FBD00638220 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = D6E589D82C318FBC00638220;
+					};
+					D6E589F22C318FBD00638220 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = D6E589D82C318FBC00638220;
+					};
+				};
+			};
+			buildConfigurationList = D6E589D42C318FBC00638220 /* Build configuration list for PBXProject "RABOSampleCSVReader" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D6E589D02C318FBC00638220;
+			productRefGroup = D6E589DA2C318FBC00638220 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6E589D82C318FBC00638220 /* RABOSampleCSVReader */,
+				D6E589E82C318FBD00638220 /* RABOSampleCSVReaderTests */,
+				D6E589F22C318FBD00638220 /* RABOSampleCSVReaderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6E589D72C318FBC00638220 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6E58A1E2C318FFC00638220 /* issues.csv in Resources */,
+				D6E58A212C318FFC00638220 /* Localizable.strings in Resources */,
+				D6E589E42C318FBD00638220 /* Preview Assets.xcassets in Resources */,
+				D6E589E12C318FBD00638220 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6E589E72C318FBD00638220 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6E589F12C318FBD00638220 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6E589D52C318FBC00638220 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6E58A372C31C24600638220 /* CSVDataListView.swift in Sources */,
+				D6E58A292C318FFC00638220 /* CSVDataViewViewModel.swift in Sources */,
+				D6E589DD2C318FBC00638220 /* RABOSampleCSVReaderApp.swift in Sources */,
+				D6E58A232C318FFC00638220 /* CSVDataFrameView.swift in Sources */,
+				D6E58A282C318FFC00638220 /* NetworkRequestManager.swift in Sources */,
+				D6E58A272C318FFC00638220 /* EndPoint.swift in Sources */,
+				D6E58A252C318FFC00638220 /* ApiError.swift in Sources */,
+				D6E58A242C318FFC00638220 /* CSVDataView.swift in Sources */,
+				D6E58A3C2C31F77900638220 /* CSVDataRequestManager.swift in Sources */,
+				D6E58A202C318FFC00638220 /* LocalisedTranslator.swift in Sources */,
+				D6E58A262C318FFC00638220 /* ApiRequest.swift in Sources */,
+				D6E58A222C318FFC00638220 /* User.swift in Sources */,
+				D6E58A392C31E76100638220 /* CSVTabView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6E589E52C318FBD00638220 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6E58A3D2C31F83000638220 /* CSVDataViewViewModelTests.swift in Sources */,
+				D6E58A3E2C31F83000638220 /* ApiRequestTests.swift in Sources */,
+				D6E58A3F2C31F83000638220 /* CSVEndPointTests.swift in Sources */,
+				D6E58A402C31F83000638220 /* NetworkRequestManagerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6E589EF2C318FBD00638220 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6E589FA2C318FBD00638220 /* RABOSampleCSVReaderUITestsLaunchTests.swift in Sources */,
+				D6E589F82C318FBD00638220 /* RABOSampleCSVReaderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D6E589EB2C318FBD00638220 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6E589D82C318FBC00638220 /* RABOSampleCSVReader */;
+			targetProxy = D6E589EA2C318FBD00638220 /* PBXContainerItemProxy */;
+		};
+		D6E589F52C318FBD00638220 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6E589D82C318FBC00638220 /* RABOSampleCSVReader */;
+			targetProxy = D6E589F42C318FBD00638220 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D6E58A0E2C318FFC00638220 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6E58A0D2C318FFC00638220 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D6E589FB2C318FBD00638220 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D6E589FC2C318FBD00638220 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6E589FE2C318FBD00638220 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RABOSampleCSVReader/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.RABOSampleCSVReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D6E589FF2C318FBD00638220 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RABOSampleCSVReader/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.RABOSampleCSVReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D6E58A012C318FBD00638220 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.RABOSampleCSVReaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RABOSampleCSVReader.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RABOSampleCSVReader";
+			};
+			name = Debug;
+		};
+		D6E58A022C318FBD00638220 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.RABOSampleCSVReaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RABOSampleCSVReader.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RABOSampleCSVReader";
+			};
+			name = Release;
+		};
+		D6E58A042C318FBD00638220 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.RABOSampleCSVReaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RABOSampleCSVReader;
+			};
+			name = Debug;
+		};
+		D6E58A052C318FBD00638220 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.RABOSampleCSVReaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RABOSampleCSVReader;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6E589D42C318FBC00638220 /* Build configuration list for PBXProject "RABOSampleCSVReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6E589FB2C318FBD00638220 /* Debug */,
+				D6E589FC2C318FBD00638220 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6E589FD2C318FBD00638220 /* Build configuration list for PBXNativeTarget "RABOSampleCSVReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6E589FE2C318FBD00638220 /* Debug */,
+				D6E589FF2C318FBD00638220 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6E58A002C318FBD00638220 /* Build configuration list for PBXNativeTarget "RABOSampleCSVReaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6E58A012C318FBD00638220 /* Debug */,
+				D6E58A022C318FBD00638220 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6E58A032C318FBD00638220 /* Build configuration list for PBXNativeTarget "RABOSampleCSVReaderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6E58A042C318FBD00638220 /* Debug */,
+				D6E58A052C318FBD00638220 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6E589D12C318FBC00638220 /* Project object */;
+}

@@ -1,0 +1,29 @@
+/* 
+  Localizable.strings
+ RABOSampleCSVReader
+
+  Created by Kondamoori, S. (Srinivasarao) on 29/06/2024.
+  
+*/
+
+// User titles
+"firstName" = "First Name";
+"surName" = "Sur Name";
+"dateOfBirth" = "D.O.B";
+"issuesCount" = "Issue #";
+
+// Progress view
+"loading" = "Loading....";
+
+// View
+"viewTitle" = "CSV Reader";
+
+// Alert view
+
+"ok" = "Ok";
+"alertTitle" = "Error";
+"alertMessage" = "Unknown error";
+
+// TAB
+"gridLayout" = "Grid Layout";
+"tableLayout" = "Table Layout";
